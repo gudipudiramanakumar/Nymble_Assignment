@@ -1,0 +1,2 @@
+To flash the hex file:
+avrdude -v -V -patmega328p -carduino "-PCOM4" -b115200 -D "-Uflash:w:assignment_nymble\Debug\assignment_nymble.hex:i"
